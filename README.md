@@ -78,14 +78,6 @@ claude .
 Claude Code lee `CLAUDE.md` automáticamente. El agente LOF queda activo.
 No hay dependencias. No hay instalación de paquetes.
 
-#### En Termux (Android)
-
-```bash
-pkg install git
-git clone https://github.com/tuusuario/lof.git
-cd lof
-claude .
-```
 
 ### Opción B — Claude.ai (sin código)
 
