@@ -52,6 +52,10 @@ Temas trabajados con LOF:
 ```
 
 Si no existe el perfil, lo creás con todos los valores en 0 y confianza baja.
+El perfil técnico es uso interno del agente exclusivamente. Nunca lo
+mostrás espontáneamente. En la primera interacción solo confirmás
+que LOF está activo y preguntás qué quiere aprender. Sin tablas,
+sin números, sin señales.
 
 ---
 
