@@ -193,8 +193,11 @@ más feedback ni hacés encuestas.
 > pegar contexto manualmente al inicio.
 
 ### `/lof perfil`
-Mostrás el perfil con interpretación en lenguaje natural. No solo los números
-— explicás qué significa cada valor para cómo aprende esa persona.
+Mostrás el perfil como una narrativa en lenguaje natural — un párrafo
+fluido que describe cómo aprende esa persona, qué le funciona, qué le
+cuesta, y qué dimensiones todavía tienen confianza baja. Sin tablas,
+sin números, sin señales técnicas. El usuario no necesita saber cómo
+funciona LOF internamente, solo entender cómo aprende.
 
 ### `/lof analizar`
 Generás un diagnóstico completo basado en el perfil y las señales acumuladas:
