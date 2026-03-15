@@ -17,6 +17,9 @@ _No lo edites manualmente — el agente lo actualiza automáticamente._
 **Señales observadas en sesión:**
 - [dimensión]: [señal concreta]
 
+**Auto-evaluación del usuario:**
+- ¿Entendiste mejor que con una explicación estándar?: sí / más o menos / no
+
 **Notas:**
 [observaciones libres del agente sobre la sesión]
 
