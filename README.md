@@ -65,29 +65,43 @@ tu perfil:
 
 ---
 
+
+## Compatibilidad
+
+| Modelo | Versión | Memoria entre sesiones |
+|--------|---------|----------------------|
+| Claude | Projects | Manual (pegar contexto) |
+| ChatGPT | Custom GPTs | Automática (memory on) |
+| Gemini | Gems | Automática |
+
+---
 ## Instalación
+### Claude.ai
+1. Creá un nuevo **Proyecto**
+2. Copiá el contenido de `LOF_PROMPT.md` en las instrucciones del proyecto
+3. Activá memoria en la configuración del proyecto
 
-### Opción A — Claude Code (recomendada)
+> ⚠️ El perfil arranca en 0 y se construye durante las sesiones.
+> Para acelerar el proceso, pegá fragmentos de conversaciones previas
+> al inicio de la primera sesión y escribí `/lof analizar`.
 
+### ChatGPT (Custom GPT)
+1. Creá un nuevo **Custom GPT**
+2. Copiá el contenido de `LOF_PROMPT.md` en las instrucciones
+3. Activá **Memory** en la configuración
+4. Con memoria activada, el perfil se enriquece automáticamente
+   entre conversaciones
+
+### Gemini (Gems)
+1. Creá un nuevo **Gem**
+2. Copiá el contenido de `LOF_PROMPT.md` en las instrucciones
+3. El perfil persiste automáticamente entre sesiones
+
+### Claude Code (local)
 ```bash
-git clone https://github.com/tuusuario/lof.git
-cd lof
+git clone https://github.com/rainvare/LOF.git
+cd LOF
 claude .
-```
-
-Claude Code lee `CLAUDE.md` automáticamente. El agente LOF queda activo.
-No hay dependencias. No hay instalación de paquetes.
-
-
-### Opción B — Claude.ai (sin código)
-
-1. Creá un nuevo **Proyecto** en Claude.ai
-2. Andá a las instrucciones del proyecto
-3. Copiá el contenido completo de `LOF_PROMPT.md`
-4. Guardá
-
-El perfil cognitivo vive en la memoria del proyecto y se actualiza
-automáticamente con cada sesión.
 
 ---
 
